@@ -313,3 +313,156 @@ body {
 .menu-block:last-child {
     border: 5px solid #ffaf18;
 }
+
+/* ===== Адаптив ===== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .logo {
+        margin-right: 60px;
+    }
+    .main-info {
+        max-width: 48%;
+    }
+    .main-image {
+        max-width: 48%;
+        margin-left: 2%;
+    }
+    .order-menu {
+        text-align: center;
+    }
+    .info-text {
+        max-width: 48%;
+    }
+    .info-image {
+        max-width: 48%;
+        margin-left: 2%;
+    }
+    .footer-text {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header .container {
+        text-align: center;
+    }
+    .header .logo {
+        display: block;
+        margin: 0 auto 16px;
+    }
+    .menu ul li a {
+        margin: 0 12px;
+    }
+    .menu-1, .menu-2, .menu-3 {
+        margin-right: 12px;
+    }
+    .main {
+        padding: 60px 0;
+    }
+    .main-info, .main-image, .info-text, .info-image {
+        display: block;
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .main h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .main-info-image {
+        text-align: center;
+    }
+    .main-info-tuna {
+        margin-right: 40px;
+    }
+    .button {
+        margin: 48px auto 0;
+    }
+    .main-image {
+        margin-top: 48px;
+    }
+    .order, .info {
+        padding: 70px 0;
+    }
+    .order h2, .info h2 {
+        font-size: 28px;
+    }
+    .info h2, .info-text-description, .info h3 {
+        text-align: center;
+    }
+    .info h2 {
+        margin-bottom: 30px;
+    }
+    .info-text-description {
+        margin-bottom: 40px;
+    }
+    .info-button {
+        margin: 30px 15px 0;
+    }
+    .info-image {
+        margin-top: 40px;
+    }
+    .footer .container {
+        text-align: center;
+    }
+    .footer .logo {
+        display: block;
+        margin: 0 auto 12px;
+    }
+    .footer-text {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu ul li {
+        display: block;
+        margin: 6px 0;
+    }
+    .menu ul li a {
+        font-size: 17px;
+    }
+    .main h1 {
+        font-size: 28px;
+    }
+    .main-info-tuna, .main-info-sushi {
+        display: block;
+        margin: 0 0 14px;
+    }
+    .order h2, .info h2 {
+        font-size: 24px;
+    }
+    .info h3 {
+        font-size: 20px;
+    }
+    .order-menu {
+        margin: 0;
+    }
+    .menu-block {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto 20px;
+        padding-bottom: 5px;
+    }
+    .menu-block .block-text {
+        width: auto;
+        height: auto;
+    }
+    .menu-button {
+        width: auto;
+    }
+}
